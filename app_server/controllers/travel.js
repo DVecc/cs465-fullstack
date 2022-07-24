@@ -1,4 +1,4 @@
-var fs = require("fs");
+var fs = require('fs');
 
 var trips = JSON.parse(fs.readFileSync('./data/trips.json', 'utf8'));
 
