@@ -22,4 +22,12 @@
 
 ## Testing
 
-### Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security.
+### Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+
+<p>Methods are the meat of the website of the application, they give the site its functionaltiy and allow the retrieval and modification of data in the backend. The RESTFUL api makes use of these methods in order to provide a way for users and other applications to interact with the database. The application endpoints are urls that must be sent http request to in order to request a particular resource from the api. Due to the nature of endpoints, security needs to be implemented to prevent unauthorized users from accessing resources or making unauthorized changes to the database. In this application we implemented a basic form of security with an authentication service that issued a java web token upon login that would be saved in the browsers local storage, and is then provided to the authentication middleware to verify that a user within the database made the request.</p>
+
+## Reflection
+
+### How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+
+<p>This course was extremely helpful for me in reaching my professional goals as it's given me the skills to finally create something that feels useful and tangible for my portfolio. Being able to now create a fullstack application has given me a greater understanding of how websites serve content to users and provide public RESTFUL apis for other applications to access and implement. I'm excited to further learn about web development in the next fullstack course and to potentially pursue a profession in fullstack web development.</p>
