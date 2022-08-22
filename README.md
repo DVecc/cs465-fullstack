@@ -18,4 +18,8 @@
 
 ### Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
 
-<p> </p>
+<p>The application was recactored many times to improve the efficiancy and functionality, refactoring the static html into handbar templates was one of htese cases which allowed for the modulization and reuse of components while reducing redundancy of code within the code base. Reducing redundacy in this way also helps make upkeep easier as updates and changes to the layout of the website will only need to be made to one file.</p>
+
+## Testing
+
+### Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security.
